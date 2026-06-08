@@ -1,0 +1,26 @@
+{
+  "name": "enhanced-shortcuts",
+  "version": "1.0.0",
+  "description": "Making some new shortcuts for chromium browsers that I feel would be nice to have\r I'll add more as I get ideas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arjun-Sharma-10/enhanced-shortcuts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Arjun-Sharma-10/enhanced-shortcuts/issues"
+  },
+  "homepage": "https://github.com/Arjun-Sharma-10/enhanced-shortcuts#readme",
+  "devDependencies": {
+    "@types/chrome": "^0.1.43",
+    "eslint": "^10.4.1",
+    "typescript": "^6.0.3"
+  }
+}
