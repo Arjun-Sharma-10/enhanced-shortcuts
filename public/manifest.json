@@ -21,8 +21,9 @@
 
     "permissions": [
         "commands",
-        "tabs",  
-        "clipboardWrite"
+        "activeTab",  
+        "clipboardWrite",
+        "scripting"
     ],
     
     "commands": {
