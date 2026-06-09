@@ -1,22 +1,15 @@
 {
   "compilerOptions": {
-    // File Layout
-    "rootDir": "./src",
-    "outDir": "./dist",
-
     // Environment Settings
-    "module": "nodenext",
-    "target": "esnext",
+    "module": "esnext",
+    "target": "es2023",
     // For nodejs:
     "lib": [
       "DOM",
       "ESNext"
     ],
     "types": ["chrome"],
-    "moduleResolution": "nodenext",
-
-    // Other Outputs
-    "sourceMap": true,
+    "moduleResolution": "bundler",
 
     // Stricter Typechecking Options
     "noUncheckedIndexedAccess": true,
@@ -30,6 +23,8 @@
     // Recommended Options
     "strict": true,
     "skipLibCheck": true,
+    "jsx": "react-jsx",
+    "noEmit": true
   },
 
   "include": ["src/**/*"],

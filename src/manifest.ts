@@ -1,4 +1,6 @@
-{
+import { defineManifest } from "@crxjs/vite-plugin";
+
+export default defineManifest({
     "manifest_version": 3,
     "name": "Extra Shortcuts",
     "version": "1.0",
@@ -11,12 +13,12 @@
     },
 
     "background": {
-        "service_worker": "background.js",
+        "service_worker": "src/background.ts",
         "type": "module"
     },
 
     "action": {
-        "default_popup": "popup/popup.html"
+        "default_popup": "src/popup/popup.html"
     },
 
     "permissions": [
@@ -49,4 +51,4 @@
         "description": "Duplicate active tab"
         }
     }
-}
+});
