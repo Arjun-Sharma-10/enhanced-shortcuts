@@ -28,8 +28,8 @@
     "commands": {
         "copy-url": {
             "suggested_key": {
-                "default": "Alt+Shift+C",
-                "mac": "Option+Shift+C"
+                "default": "Alt+C",
+                "mac": "Option+C"
             },
         "description": "Copy the URL of the active tab"
         }
