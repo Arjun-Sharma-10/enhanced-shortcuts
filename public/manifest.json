@@ -33,6 +33,13 @@
                 "mac": "Option+C"
             },
         "description": "Copy the URL of the active tab"
+        },
+        "tab-window": {
+            "suggested_key": {
+                "default": "Alt+W",
+                "mac": "Option+W"
+            },
+        "description": "Send the active tab to a new window"
         }
     }
 }

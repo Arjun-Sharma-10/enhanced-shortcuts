@@ -1,4 +1,5 @@
 import { copyCurrentURL } from "./shortcut-actions/copy-url.js";
+import { tabWindow } from "./shortcut-actions/move-tab-to-new-window.js";   
 
 chrome.commands.onCommand.addListener(executeCommand);
 
@@ -6,6 +7,10 @@ async function executeCommand(command: string): Promise<void> {
     switch(command) {
         case "copy-url":
             await copyCurrentURL();
+            return;
+
+        case "tab-window":
+            await tabWindow();
             return;
         
         default:
