@@ -40,6 +40,13 @@
                 "mac": "Option+W"
             },
         "description": "Send the active tab to a new window"
+        },
+        "dupe-tab": {
+            "suggested_key": {
+                "default": "Alt+K",
+                "mac": "Option+K"
+            },
+        "description": "Duplicate active tab"
         }
     }
 }

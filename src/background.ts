@@ -1,4 +1,5 @@
 import { copyCurrentURL } from "./shortcut-actions/copy-url.js";
+import { dupeTab } from "./shortcut-actions/dupe-tab.js";
 import { tabWindow } from "./shortcut-actions/move-tab-to-new-window.js";   
 
 chrome.commands.onCommand.addListener(executeCommand);
@@ -11,6 +12,10 @@ async function executeCommand(command: string): Promise<void> {
 
         case "tab-window":
             await tabWindow();
+            return;
+        
+        case "dupe-tab":
+            await dupeTab();
             return;
         
         default:

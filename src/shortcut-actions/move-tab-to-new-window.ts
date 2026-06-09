@@ -5,5 +5,5 @@ export async function tabWindow(): Promise<void> {
     
     chrome.windows.create({
         tabId: activeTab.id!,
-    })
+    });
 }
