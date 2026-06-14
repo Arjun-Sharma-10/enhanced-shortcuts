@@ -34,21 +34,21 @@ export default defineManifest({
                 "default": "Alt+Shift+D",
                 "mac": "Option+C"
             },
-        "description": "Copy the URL of the active tab"
+        "description": "Copy URL"
         },
         "tab-window": {
             "suggested_key": {
                 "default": "Alt+W",
                 "mac": "Option+W"
             },
-        "description": "Send the active tab to a new window"
+        "description": "Send tab to new window"
         },
         "dupe-tab": {
             "suggested_key": {
                 "default": "Alt+K",
                 "mac": "Option+K"
             },
-        "description": "Duplicate active tab"
+        "description": "Duplicate tab"
         }
     }
 });
