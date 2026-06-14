@@ -1,5 +1,24 @@
+import { useEffect, useState } from "react";
+import CreateList from "./shortcuts-ui/shortcut-list";
+
 export default function App() {
+    const [commands, setCommands] = useState<chrome.commands.Command[]>([]);
+
+    function updateComponents() {
+        chrome.commands.getAll(newCommands => setCommands(newCommands));
+    }
+
+    useEffect(updateComponents, []);
+
     return (
-        <h3>Man</h3>
+        <>
+            <h2>Shortcuts</h2>
+
+            <div id = "command-list">
+                <CreateList 
+                    commands={commands}
+                />
+            </div>
+        </>
     );
 }
