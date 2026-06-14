@@ -9,6 +9,7 @@ export default function ShortcutElement({ command }: Props) {
         <div className = "card">
             <div className = "name">{command.description ?? "Unnamed Command"}</div>
             <div className = "shortcut">{command.shortcut ?? "Unassigned"}</div>
+            <input type="checkbox" className="shortcut-toggle"/>
         </div>
     )
 } 

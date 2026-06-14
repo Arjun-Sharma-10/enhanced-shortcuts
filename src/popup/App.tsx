@@ -6,7 +6,7 @@ export default function App() {
     const [commands, setCommands] = useState<chrome.commands.Command[]>([]);
 
     function updateComponents() {
-        chrome.commands.getAll(newCommands => setCommands(newCommands));
+        chrome.commands.getAll((newCommands) => setCommands(newCommands.splice(1)));
     }
 
     useEffect(updateComponents, []);

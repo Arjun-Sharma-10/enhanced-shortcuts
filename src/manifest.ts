@@ -25,7 +25,8 @@ export default defineManifest({
         "commands",
         "activeTab",  
         "clipboardWrite",
-        "scripting"
+        "scripting",
+        "storage"
     ],
     
     "commands": {
