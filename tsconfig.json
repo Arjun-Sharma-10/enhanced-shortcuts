@@ -8,7 +8,7 @@
       "DOM",
       "ESNext"
     ],
-    "types": ["chrome"],
+    "types": ["chrome", "vite/client"],
     "moduleResolution": "bundler",
 
     // Stricter Typechecking Options

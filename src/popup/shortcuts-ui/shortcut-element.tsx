@@ -1,3 +1,5 @@
+import "./shortcut-element.css";
+
 type Props = {
     command: chrome.commands.Command
 };

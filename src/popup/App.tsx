@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import CreateList from "./shortcuts-ui/shortcut-list";
+import "./App.css";
 
 export default function App() {
     const [commands, setCommands] = useState<chrome.commands.Command[]>([]);
