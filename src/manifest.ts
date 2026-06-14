@@ -33,7 +33,7 @@ export default defineManifest({
         "copy-url": {
             "suggested_key": {
                 "default": "Alt+Shift+D",
-                "mac": "Option+C"
+                "mac": "Option+Shift+D"
             },
         "description": "Copy URL"
         },
